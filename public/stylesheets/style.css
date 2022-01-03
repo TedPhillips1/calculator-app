@@ -6,6 +6,7 @@
     --equal-color: orange;
     --prev-oper-color: rgba(255,255,255,0.7);
     --font-color: white;
+    --delete-color: rgb(255, 111, 111);
 }
 
 *, *::before, *::after {
@@ -27,7 +28,7 @@ body {
     align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(6, 100px);
     
 }
 
@@ -72,4 +73,12 @@ button:hover {
 .current-operand {
     color: var(--font-color);
     font-size: 3rem;
+}
+
+.delete-button {
+    background-color: var(--delete-color);
+}
+
+.all-clear {
+    background-color: var(--delete-color);
 }

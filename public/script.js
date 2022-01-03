@@ -44,6 +44,8 @@ export function getResult(string){
                 return '*';
             case '÷':
                 return '/';
+            case '^':
+                return '**'
             default:
                 return char;
         }
