@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/TedPhillips1/calculator-app)
-# *Calculator App*
+# Calculator App
 A christmas project to build a calculator that is able to perform BIDMAS. By opening a live server within the public file you can select numbers and operators to calculate a result. Each time you click an operator such as +, -, /, or x, your operand moves up to the top where it shows the whole sum. When using the decimal, brackets or indicies it does not do this. You can also press the 'DEL' button to delete the last typed character. When you hit the equals button it takes any previously written formula and the current formula and works out the result of it and displays it. If you have any syntax errors it will throw an error. If you click the all-clear ('AC') it will remove anything stored in the calculator and let you start anew. 
 
 ## Why?
